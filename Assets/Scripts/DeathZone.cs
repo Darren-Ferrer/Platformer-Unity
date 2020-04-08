@@ -3,16 +3,12 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.SceneManagement;
 
-public class CollisionDeath : MonoBehaviour
+public class DeathZone : MonoBehaviour
 {
-    function OnTriggerEnter (collision : Collider)
+        void OnTriggerEnter2D(Collider2D die)
     {
-        print("Triggered: " + collision.tag);
-        if(collision.gameObject.tag == "Player")
-        {
-            Application.LoadLevel("Level 1"); //try integer value to verify
-        }
-
+        Destroy(die.gameObject);
+        SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex);
     }
     // Start is called before the first frame update
     void Start()

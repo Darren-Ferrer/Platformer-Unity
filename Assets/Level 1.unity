@@ -740,9 +740,11 @@ GameObject:
   - component: {fileID: 641526117}
   - component: {fileID: 641526122}
   - component: {fileID: 641526123}
+  - component: {fileID: 641526124}
+  - component: {fileID: 641526125}
   m_Layer: 9
   m_Name: Ninja Character
-  m_TagString: Untagged
+  m_TagString: Player1
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -916,6 +918,33 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   controller: {fileID: 641526122}
   runSpeed: 80
+--- !u!114 &641526124
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 641526116}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 999f53695aec8b2429ecd67ec6301514, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &641526125
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 641526116}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -619905303, guid: f70555f144d8491a825f0804e09c671c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_FirstSelected: {fileID: 0}
+  m_sendNavigationEvents: 1
+  m_DragThreshold: 10
 --- !u!1 &752477734
 GameObject:
   m_ObjectHideFlags: 0
@@ -927,9 +956,10 @@ GameObject:
   - component: {fileID: 752477736}
   - component: {fileID: 752477735}
   - component: {fileID: 752477737}
+  - component: {fileID: 752477738}
   m_Layer: 0
   m_Name: spikes beginning 2
-  m_TagString: Untagged
+  m_TagString: Death
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -1006,7 +1036,7 @@ BoxCollider2D:
   m_Enabled: 1
   m_Density: 1
   m_Material: {fileID: 0}
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_UsedByEffector: 0
   m_UsedByComposite: 0
   m_Offset: {x: 0, y: 0}
@@ -1022,6 +1052,18 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 1, y: 0.6666667}
   m_EdgeRadius: 0
+--- !u!114 &752477738
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 752477734}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 66a5083308a168644a72487897c323f3, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &874106019
 GameObject:
   m_ObjectHideFlags: 0
@@ -1159,7 +1201,7 @@ GameObject:
   - component: {fileID: 1266985259}
   m_Layer: 0
   m_Name: spikes beginning
-  m_TagString: Untagged
+  m_TagString: Death
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -1261,7 +1303,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 1266985255}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 999f53695aec8b2429ecd67ec6301514, type: 3}
+  m_Script: {fileID: 11500000, guid: 66a5083308a168644a72487897c323f3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
 --- !u!1 &1811426965
