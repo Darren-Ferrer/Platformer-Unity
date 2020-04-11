@@ -5,8 +5,9 @@ using UnityEngine.SceneManagement;
 
 public class NextLevel : MonoBehaviour
 {
-   void OnTriggerEnter2D(Collider2D next)
+    void OnTriggerEnter2D(Collider2D next)
     {
+        SoundManager.PlaySound("win");
         Destroy(next.gameObject);
         SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex + 1);
     }

@@ -21,11 +21,13 @@ URL: explains in his video https://www.youtube.com/watch?v=dwcT-Dch0bA&list=PLPV
 Moving Platform by inScope Studios
 URL: explains in his video https://www.youtube.com/watch?v=4R_AdDK25kQ&list=PLX-uZVK_0K_6VXcSajfFbXDXndb6AdBLO&index=44
 
+SoundManager by ALexander Zotov
+URL:explains in his video https://www.youtube.com/watch?v=8pFlnyfRfRc
 
 Sounds:
 
 Woodland Fantasy by Matthew Pablo 
 URL: https://opengameart.org/content/woodland-fantasy
 
-Footsteps by ??? Found on www.fesliyanstudios.com
-https://www.fesliyanstudios.com/play-mp3/709
+Cartoony Jump and Bounce by qubodup
+URL: https://opengameart.org/content/cartoony-jump-and-bounce
