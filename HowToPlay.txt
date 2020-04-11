@@ -1,0 +1,6 @@
+To move:
+use arrowkeys up,left, and right
+
+Objectives:
+- get to the treasure chest
+- avoid the spikes and water
