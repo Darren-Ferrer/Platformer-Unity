@@ -1,0 +1,23 @@
+Assets:
+
+Free Platform Game Assets by Bayat Games
+URL: https://assetstore.unity.com/packages/2d/environments/free-platform-game-assets-85838
+
+Sunny Land by Ansimuz
+URL: https://assetstore.unity.com/packages/2d/characters/sunny-land-103349
+
+Ninja Sprite (Free) by Kin Ng
+URL: https://assetstore.unity.com/packages/2d/characters/ninja-sprite-sheet-free-93901
+
+
+
+Scripts:
+2D Character Controller by Brackeys
+URL:https://github.com/Brackeys/2D-Character-Controller
+
+Player Movement by Brackeys
+URL: explains in his video https://www.youtube.com/watch?v=dwcT-Dch0bA&list=PLPV2KyIb3jR6TFcFuzI2bB7TMNIIBpKMQ&index=2
+
+Moving Platform by inScope Studios
+URL: explains in his video https://www.youtube.com/watch?v=4R_AdDK25kQ&list=PLX-uZVK_0K_6VXcSajfFbXDXndb6AdBLO&index=44
+
