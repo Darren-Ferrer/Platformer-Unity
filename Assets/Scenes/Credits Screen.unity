@@ -1917,7 +1917,7 @@ GameObject:
   - component: {fileID: 1986714888}
   - component: {fileID: 1986714887}
   m_Layer: 9
-  m_Name: Ninja Character Level 2 (1)
+  m_Name: Ninja Character Level Credits
   m_TagString: Player1
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
