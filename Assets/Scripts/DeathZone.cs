@@ -5,7 +5,7 @@ using UnityEngine.SceneManagement;
 
 public class DeathZone : MonoBehaviour
 {
-        void OnTriggerEnter2D(Collider2D die)
+    void OnTriggerEnter2D(Collider2D die)
     {
         Destroy(die.gameObject);
         SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex);
